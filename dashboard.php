@@ -51,7 +51,7 @@
 								</div>
 								
 								<div class="panel-icon">
-									<img src="<?=url('Assets/image/Order.png')?>" alt="order" height="60">
+									<img src="<?=url('Assets/image/Paket.png')?>" alt="order" height="60">
 								</div>
 							</div>
 						</div>
