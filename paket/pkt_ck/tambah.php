@@ -7,7 +7,7 @@
 				<div class="box">
             <img src="<?=url('Assets/image/berhasil.png')?>" height="68" alt="alert sukses">
 					<p>Paket Berhasil Di Tambahkan</p>
-					<button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
+					<button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
 				</div>
          </div>
          
@@ -17,7 +17,7 @@
             <div class="box-red">
             <img src="<?=url('Assets/image/gagal.png')?>" height="68" alt="alert gagal">
                <p>Paket Gagal Di Tambahkan</p>
-               <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
+               <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
             </div>
          </div>
       <?php endif ?>      

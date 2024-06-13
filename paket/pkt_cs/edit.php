@@ -12,7 +12,7 @@ $data_cs = query("SELECT * FROM tb_cuci_satuan WHERE id_cs = '$id_cs'")[0];
          <div class="box">
             <img src="<?= url('Assets/image/berhasil.png') ?>" height="68" alt="alert sukses">
             <p>Paket Berhasil Di Ubah</p>
-            <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_cs/pkt_cs.php'"
+            <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_cs/pkt_cs.php'"
                class="btn-alert">Ok</button>
          </div>
       </div>
@@ -22,7 +22,7 @@ $data_cs = query("SELECT * FROM tb_cuci_satuan WHERE id_cs = '$id_cs'")[0];
          <div class="box">
             <img src="<?= url('Assets/image/gagal.png') ?>" height="68" alt="alert gagal">
             <p>Paket Gagal Di Ubah</p>
-            <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_cs/pkt_cs.php'"
+            <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_cs/pkt_cs.php'"
                class="btn-alert">Ok</button>
          </div>
       </div>
