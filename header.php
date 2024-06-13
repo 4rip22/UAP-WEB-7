@@ -26,7 +26,5 @@ require_once ('fungsi.php');
 			<a href="<?= url('paket/paket.php') ?>" class="link-nav">Daftar Layanan</a>
 		</div>
 	</header>
-
 </body>
-
 </html>
