@@ -13,7 +13,11 @@
 <body>
 
 	<?php if (isset($_SESSION['login']) && isset($_SESSION['master'])) : ?>
+<<<<<<< HEAD
 		<script>window.location='http://localhost/CleanCo_Laundry/login.php'</script>
+=======
+		<script>window.location='http://localhost/CleanCo_Laundry/'</script>
+>>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
 	<?php endif ?> 
 
 	<?php 
@@ -28,12 +32,16 @@
 
 				if (password_verify($password, $hasil['password'])) {
 					$_SESSION['master'] = $username;
+<<<<<<< HEAD
 					$_SESSION['login'] = true; 
 					
 					header("Location: dashboard.php");
 					exit();
 					?>
 					
+=======
+					$_SESSION['login'] = true; ?>
+>>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
 						<script>window.location="http://localhost/CleanCo_Laundry/";</script>
 				<?php 
 				}else {?>
@@ -123,7 +131,11 @@
 	</div>
 
 	<div class="copyright">
+<<<<<<< HEAD
 		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
+=======
+		<p>&copy; <span id="tahun"></span> KELOMPOK 7 UAP.</p>
+>>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
 		<script>
 		// mengambil tanggal hari ini
 		var now = new Date();
