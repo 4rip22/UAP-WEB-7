@@ -1,5 +1,5 @@
 <?php 
-   require_once('../../_header.php');
+  require_once(__DIR__ . '/../../header.php');
    $id_ck = $_GET['id_ck'];
    $data_ck = query("SELECT * FROM tb_cuci_komplit WHERE id_ck = '$id_ck'")[0];
 ?>
@@ -9,7 +9,7 @@
          <!-- Statement 1 -->
          <div class="alert">
 				<div class="box">
-               <img src="<?=url('_assets/img/berhasil.png')?>" height="68" alt="alert sukses">
+               <img src="<?=url('Assets/image/berhasil.png')?>" height="68" alt="alert sukses">
 					<p>Paket Berhasil Di Ubah</p>
 					<button onclick="window.location='http://localhost/rumah_laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
 				</div>
@@ -19,7 +19,7 @@
          <!-- Statement 2 -->
          <div class="alert">
             <div class="box">
-               <img src="<?=url('_assets/img/gagal.png')?>" height="68" alt="alert gagal">
+               <img src="<?=url('Assets/image/gagal.png')?>" height="68" alt="alert gagal">
                <p>Paket Gagal Di Ubah</p>
                <button onclick="window.location='http://localhost/rumah_laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
             </div>
@@ -75,4 +75,3 @@
       </div>
    </div>
    
-<?php require_once('../../_footer.php') ?>

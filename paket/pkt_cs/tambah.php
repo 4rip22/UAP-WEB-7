@@ -1,4 +1,5 @@
-<?php require_once('../../_header.php') ?>
+<?php require_once(__DIR__ . '/../../header.php');
+?>
 
 <?php if (isset($_POST['tambah'])) : ?>
    <?php if (add_cs($_POST) > 0) : ?>
@@ -73,5 +74,3 @@
          </div>
       </div>
    </div>
-
-   <?php require_once('../../_footer.php') ?>
