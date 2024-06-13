@@ -12,10 +12,6 @@ require_once ('fungsi.php');
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
-
->>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
 	<header>
 		<nav>
 			<div class="logo">
@@ -25,15 +21,13 @@ require_once ('fungsi.php');
 			</div>
 		</nav>
 		<div id="nav-mini">
-<<<<<<< HEAD
 			<a href="<?= url('riwayat_transaksi/riwayat.php') ?>" class="link-nav">Riwayat Transaksi</a>
 			<a href="<?= url('karyawan/Karyawan.php') ?>" class="link-nav">Manage Karyawan</a>
 			<a href="<?= url('paket/paket.php') ?>" class="link-nav">Daftar Layanan</a>
-=======
 			<a href="<?= url('') ?>" class="link-nav">Riwayat Transaksi</a>
 			<a href="<?= url('karyawan/Karyawan.php') ?>" class="link-nav">Manage Karyawan</a>
 			<a href="<?= url('') ?>" class="link-nav">Daftar Layanan</a>
->>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
+
 		</div>
 	</header>
 
