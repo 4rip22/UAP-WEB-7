@@ -1,9 +1,6 @@
-<<<<<<< HEAD
+
 <?php require_once(__DIR__ . '/../../header.php');
 ?>
-=======
-<?php require_once('../../header.php') ?>
->>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
 
 <?php if (isset($_POST['tambah'])) : ?>
    <?php if (add_cs($_POST) > 0) : ?>
@@ -78,8 +75,6 @@
          </div>
       </div>
    </div>
-<<<<<<< HEAD
-=======
 
    <footer>
 		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
@@ -92,4 +87,4 @@
 		</script>
 		
 	</footer>
->>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
+

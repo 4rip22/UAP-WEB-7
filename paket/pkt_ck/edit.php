@@ -1,9 +1,5 @@
 <?php 
-<<<<<<< HEAD
   require_once(__DIR__ . '/../../header.php');
-=======
-   require_once('../../header.php');
->>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
    $id_ck = $_GET['id_ck'];
    $data_ck = query("SELECT * FROM tb_cuci_komplit WHERE id_ck = '$id_ck'")[0];
 ?>

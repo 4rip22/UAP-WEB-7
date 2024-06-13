@@ -1,9 +1,6 @@
 <?php 
-<<<<<<< HEAD
    require_once(__DIR__ . '/../../header.php');
-=======
-   require_once('../../header.php');
->>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
+
    $id_dc = $_GET['id_dc'];
    $data_dc = query("SELECT * FROM tb_dry_clean WHERE id_dc = '$id_dc'")[0];
    // var_dump($data_dc);
@@ -79,8 +76,6 @@
          </div>
       </div>
    </div>
-<<<<<<< HEAD
-=======
 
    <footer>
 		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
@@ -93,4 +88,3 @@
 		</script>
 		
 	</footer>
->>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
