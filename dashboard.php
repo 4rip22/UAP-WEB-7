@@ -11,7 +11,7 @@
 			<div class="baris">
 				<div class="selamat-datang">
 					<div class="col-header">
-						<p class="judul-sm">Selamat Datang <span><?= ucfirst($_SESSION['master']) ?></span></p>
+						<p class="judul-sm">Selamat Datang Admin<span><?= ucfirst($_SESSION['master']) ?></span></p>
 						<h2 class="judul-md">Dashboard</h2>
 					</div>
 
@@ -118,6 +118,7 @@
                                        <td>
 
                                           <a href="<?=url('detailOrder/detail_ck.php?or_ck_number=')?><?=$ck['or_ck_number']?>" class="btn btn-detail">Detail</a>
+
                                           <a href="<?=url('Pesanan/hapusCk.php?or_ck_number=')?><?=$ck['or_ck_number']?>" onclick="return confirm('Yakin akan menghapus?');" class="btn btn-hapus">Hapus</a>
                                        </td>
                                     </tr>
@@ -137,7 +138,7 @@
          </div>
       
 
-			<!-- Daftar Order Cuci Kering/Dry Clean -->
+			<!-- Daftar Order Cuci Satuan -->
 			<div class="baris">
             <div class="col">
                <div class="card">
@@ -181,7 +182,6 @@
 
                                                 <a href="<?=url('detailOrder/detail_cs.php?or_cs_number=')?><?=$cs['or_cs_number']?>" class="btn btn-detail">Detail</a>
 
-
                                                 <a href="<?=url('Pesanan/hapusCs.php?or_cs_number=')?><?=$cs['or_cs_number']?>" onclick="return confirm('Yakin akan menghapus?');" class="btn btn-hapus">Hapus</a>
                                              </td>
                                           </tr>
@@ -201,7 +201,7 @@
             </div>
 			</div>
 
-			<!-- Daftar Order Cuci Satuan -->
+			<!-- Daftar Order Dry Clean -->
 			<div class="baris">
             <div class="col">
                <div class="card">
@@ -243,6 +243,8 @@
                                           <td><?= $dc['berat_qty_dc'] . ' Kg' ?></td>
                                           <td>
                                              <a href="<?=url('detaiLOrder/order_dc.php')?><?= $dc['or_dc_number'] ?>" class="btn btn-detail">Detail</a>
+                                             <a href="<?=url('detailOrder/detail_dc.php?or_dc_number=')?><?= $dc['or_dc_number'] ?>" class="btn btn-detail">Detail</a>
+
                                              <a href="<?=url('Pesanan/hapusDc.php?or_dc_number=')?><?=$dc['or_dc_number']?>" onclick="return confirm('Yakin akan menghapus?');" class="btn btn-hapus">Hapus</a>
                                           </td>
                                        </tr>
@@ -267,6 +269,7 @@
 
    <footer>
 		<p>&copy; <span id="tahun"></span> KELOMPOK UAP.</p>
+		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
 		<script>
 		// mengambil tanggal hari ini
 		var now = new Date();

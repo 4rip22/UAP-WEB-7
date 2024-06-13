@@ -11,7 +11,7 @@
 						</div>
 						
 						<div class="card-col txt-right">
-							<a href="<?=url('dashboard.php')?>" class="btn-xs bg-primary">Kembali</a>
+							<a href="<?=url()?>" class="btn-xs bg-primary">Kembali</a>
 						</div>
                </div>
 
@@ -26,7 +26,7 @@
 								</div>
 
 								<div class="col-paket">
-									<a href="<?=url('paket/pkt_dc/pkt_dc')?>" class="paket">
+									<a href="<?=url('paket/pkt_dc/pkt_dc.php')?>" class="paket">
 										<img src="<?=url('Assets/image/dry_clean.png')?>" alt="dry clean" width="160">
 										<h4>Daftar Paket Dry Clean</h4>
 									</a>
@@ -46,4 +46,3 @@
       </div>
    </div>
 </div>
-

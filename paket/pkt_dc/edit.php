@@ -1,5 +1,9 @@
 <?php 
+<<<<<<< HEAD
    require_once(__DIR__ . '/../../header.php');
+=======
+   require_once('../../header.php');
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
    $id_dc = $_GET['id_dc'];
    $data_dc = query("SELECT * FROM tb_dry_clean WHERE id_dc = '$id_dc'")[0];
    // var_dump($data_dc);
@@ -10,9 +14,9 @@
          <!-- Statement 1 -->
          <div class="alert">
 				<div class="box">
-            <img src="<?=url('_assets/img/berhasil.png')?>" height="68" alt="alert sukses">
+            <img src="<?=url('Assets/image/berhasil.png')?>" height="68" alt="alert sukses">
 					<p>Paket Berhasil Di Ubah</p>
-					<button onclick="window.location='http://localhost/rumah_laundry/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
+					<button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
 				</div>
          </div>
          
@@ -20,9 +24,9 @@
          <!-- Statement 2 -->
          <div class="alert">
             <div class="box">
-            <img src="<?=url('_assets/img/gagal.png')?>" height="68" alt="alert gagal">
+            <img src="<?=url('Assets/image//gagal.png')?>" height="68" alt="alert gagal">
                <p>Paket Gagal Di Ubah</p>
-               <button onclick="window.location='http://localhost/rumah_laundry/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
+               <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
             </div>
          </div>
       <?php endif ?>      
@@ -75,3 +79,18 @@
          </div>
       </div>
    </div>
+<<<<<<< HEAD
+=======
+
+   <footer>
+		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
+		<script>
+		// mengambil tanggal hari ini
+		var now = new Date();
+		var tahun = now.getFullYear();
+		// menampilkan tahun di dalam elemen HTML
+		document.getElementById("tahun").innerHTML = tahun;
+		</script>
+		
+	</footer>
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e

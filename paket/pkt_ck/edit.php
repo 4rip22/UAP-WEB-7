@@ -1,5 +1,9 @@
 <?php 
+<<<<<<< HEAD
   require_once(__DIR__ . '/../../header.php');
+=======
+   require_once('../../header.php');
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
    $id_ck = $_GET['id_ck'];
    $data_ck = query("SELECT * FROM tb_cuci_komplit WHERE id_ck = '$id_ck'")[0];
 ?>
@@ -11,7 +15,7 @@
 				<div class="box">
                <img src="<?=url('Assets/image/berhasil.png')?>" height="68" alt="alert sukses">
 					<p>Paket Berhasil Di Ubah</p>
-					<button onclick="window.location='http://localhost/rumah_laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
+					<button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
 				</div>
          </div>
          
@@ -21,7 +25,7 @@
             <div class="box">
                <img src="<?=url('Assets/image/gagal.png')?>" height="68" alt="alert gagal">
                <p>Paket Gagal Di Ubah</p>
-               <button onclick="window.location='http://localhost/rumah_laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
+               <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
             </div>
          </div>
       <?php endif ?>      
@@ -74,4 +78,18 @@
          </div>
       </div>
    </div>
+<<<<<<< HEAD
    
+=======
+   
+   <footer>
+		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
+		<script>
+		// mengambil tanggal hari ini
+		var now = new Date();
+		var tahun = now.getFullYear();
+		// menampilkan tahun di dalam elemen HTML
+		document.getElementById("tahun").innerHTML = tahun;
+		</script>
+	</footer>
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
