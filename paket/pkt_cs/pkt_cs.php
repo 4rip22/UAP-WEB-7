@@ -1,5 +1,5 @@
 <?php 
-   require_once('../header.php');
+   require_once('../../header.php');
    $data_cs = query('SELECT * FROM tb_cuci_satuan');
 ?>
 
@@ -70,3 +70,15 @@
 			</div>
 		</div>
 	</div>
+
+	<footer>
+		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
+		<script>
+		// mengambil tanggal hari ini
+		var now = new Date();
+		var tahun = now.getFullYear();
+		// menampilkan tahun di dalam elemen HTML
+		document.getElementById("tahun").innerHTML = tahun;
+		</script>
+		
+	</footer>

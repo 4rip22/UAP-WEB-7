@@ -1,5 +1,5 @@
 <?php 
-	require_once('../_header.php');
+	require_once('../header.php');
 	$dc_number = $_GET['or_dc_number'];
 ?>
 

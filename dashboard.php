@@ -14,7 +14,7 @@
 			<div class="baris">
 				<div class="selamat-datang">
 					<div class="col-header">
-						<p class="judul-sm">Selamat Datang <span><?= ucfirst($_SESSION['master']) ?></span></p>
+						<p class="judul-sm">Selamat Datang Admin<span><?= ucfirst($_SESSION['master']) ?></span></p>
 						<h2 class="judul-md">Dashboard</h2>
 					</div>
 
@@ -51,11 +51,7 @@
 								</div>
 								
 								<div class="panel-icon">
-<<<<<<< HEAD
 									<img src="<?=url('Assets/image/Order.png')?>" alt="order" height="60">
-=======
-									<img src="<?=url('Assets/image/Paket.png')?>" alt="order" height="60">
->>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
 								</div>
 							</div>
 						</div>
@@ -122,11 +118,7 @@
                                        <td><?= $ck['wkt_krj_ck'] ?></td>
                                        <td><?= $ck['berat_qty_ck'] . ' Kg' ?></td>
                                        <td>
-<<<<<<< HEAD
                                           <a href="<?=url('detailOrder/detail_ck.php?or_ck_number=')?><?=$ck['or_ck_number']?>" class="btn btn-detail">Detail</a>
-=======
-                                          <a href="<?=url('detail_order/detail_ck/detail_order_ck.php?or_ck_number=')?><?=$ck['or_ck_number']?>" class="btn btn-detail">Detail</a>
->>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
 
                                           <a href="<?=url('Pesanan/hapusCk.php?or_ck_number=')?><?=$ck['or_ck_number']?>" onclick="return confirm('Yakin akan menghapus?');" class="btn btn-hapus">Hapus</a>
                                        </td>
@@ -147,7 +139,7 @@
          </div>
       
 
-			<!-- Daftar Order Cuci Kering/Dry Clean -->
+			<!-- Daftar Order Cuci Satuan -->
 			<div class="baris">
             <div class="col">
                <div class="card">
@@ -188,11 +180,7 @@
                                              <td><?= $cs['wkt_krj_cs'] ?></td>
                                              <td><?= $cs['jml_pcs'] ?></td>
                                              <td>
-<<<<<<< HEAD
                                                 <a href="<?=url('detailOrder/detail_cs.php?or_cs_number=')?><?=$cs['or_cs_number']?>" class="btn btn-detail">Detail</a>
-=======
-                                                <a href="<?=url('detail_order/detail_cs/detail_order_cs.php?or_cs_number=')?><?=$cs['or_cs_number']?>" class="btn btn-detail">Detail</a>
->>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
 
                                                 <a href="<?=url('Pesanan/hapusCs.php?or_cs_number=')?><?=$cs['or_cs_number']?>" onclick="return confirm('Yakin akan menghapus?');" class="btn btn-hapus">Hapus</a>
                                              </td>
@@ -213,7 +201,7 @@
             </div>
 			</div>
 
-			<!-- Daftar Order Cuci Satuan -->
+			<!-- Daftar Order Dry Clean -->
 			<div class="baris">
             <div class="col">
                <div class="card">
@@ -254,11 +242,7 @@
                                           <td><?= $dc['wkt_krj_dc'] ?></td>
                                           <td><?= $dc['berat_qty_dc'] . ' Kg' ?></td>
                                           <td>
-<<<<<<< HEAD
-                                             <a href="<?=url('detaiLOrder/order_dc.php')?><?= $dc['or_dc_number'] ?>" class="btn btn-detail">Detail</a>
-=======
-                                             <a href="<?=url('')?><?= $dc['or_dc_number'] ?>" class="btn btn-detail">Detail</a>
->>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
+                                             <a href="<?=url('detailOrder/detail_dc.php?or_dc_number=')?><?= $dc['or_dc_number'] ?>" class="btn btn-detail">Detail</a>
 
                                              <a href="<?=url('Pesanan/hapusDc.php?or_dc_number=')?><?=$dc['or_dc_number']?>" onclick="return confirm('Yakin akan menghapus?');" class="btn btn-hapus">Hapus</a>
                                           </td>
@@ -283,11 +267,7 @@
 	</div>
 
    <footer>
-<<<<<<< HEAD
 		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
-=======
-		<p>&copy; <span id="tahun"></span> KELOMPOK UAP.</p>
->>>>>>> fa22fb525ed78f8a3ab6fbf2ab6614ee391efb03
 		<script>
 		// mengambil tanggal hari ini
 		var now = new Date();
