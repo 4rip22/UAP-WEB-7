@@ -1,6 +1,7 @@
 <?php 
    require_once('../../header.php');
    $data_dc = query('SELECT * FROM tb_dry_clean'); 
+
 ?>
 
    <div id="pkt_ck" class="main-content">

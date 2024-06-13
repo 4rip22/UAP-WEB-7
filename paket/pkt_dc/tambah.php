@@ -1,11 +1,21 @@
+<<<<<<< HEAD
+<?php 
+require_once(__DIR__ . '/../../header.php');
+ ?>
+=======
 <?php require_once('../../header.php') ?>
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
 
    <?php if (isset($_POST['tambah'])) : ?>
       <?php if (add_dc($_POST) > 0) : ?>
          <!-- Statement 1 -->
          <div class="alert">
             <div class="box">
+<<<<<<< HEAD
+            <img src="<?=url('Assets/image/berhasil.png')?>" height="68" alt="alert sukses">
+=======
             <img src="<?=url('Assets/image//berhasil.png')?>" height="68" alt="alert sukses">
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
                <p>Paket Berhasil Di Tambahkan</p>
                <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
             </div>
@@ -69,6 +79,8 @@
          </div>
       </div>
    </div>
+<<<<<<< HEAD
+=======
 
    <footer>
 		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
@@ -81,3 +93,4 @@
 		</script>
 		
 	</footer>
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e

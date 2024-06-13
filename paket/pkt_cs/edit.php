@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+<?php 
+   require_once(__DIR__ . '/../../header.php'); 
+   $id_cs = $_GET['id_cs'];
+   $data_cs = query("SELECT * FROM tb_cuci_satuan WHERE id_cs = '$id_cs'")[0];
+   var_dump($data_cs);   
+=======
 <?php
 require_once ('../../header.php');
 $id_cs = $_GET['id_cs'];
 $data_cs = query("SELECT * FROM tb_cuci_satuan WHERE id_cs = '$id_cs'")[0];
 // var_dump($data_cs);   
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
 ?>
 
 <?php if (isset($_POST['ubah'])): ?>
@@ -87,6 +95,8 @@ $data_cs = query("SELECT * FROM tb_cuci_satuan WHERE id_cs = '$id_cs'")[0];
    </div>
 </div>
 
+<<<<<<< HEAD
+=======
 <footer>
    <p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
    <script>
@@ -98,3 +108,4 @@ $data_cs = query("SELECT * FROM tb_cuci_satuan WHERE id_cs = '$id_cs'")[0];
    </script>
 
 </footer>
+>>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e

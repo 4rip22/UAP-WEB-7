@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php require_once('../../fungsi.php');?>
+=======
+<?php require_once(__DIR__ . '/../../fungsi.php');?>
+>>>>>>> 501bbf226975e4f1649318d299be7c325c5e6327
 <!DOCTYPE html>
 <html lang="en">
 <head>
