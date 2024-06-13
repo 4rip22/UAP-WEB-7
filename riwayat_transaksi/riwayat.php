@@ -5,7 +5,6 @@
    $query_cs = query("SELECT * FROM tb_riwayat_cs ORDER BY id_cs DESC");
    // var_dump($query_cs);
 ?>
-
    <div class="riwayat" class="main-content">
       <div class="container">
 			<div class="baris">
