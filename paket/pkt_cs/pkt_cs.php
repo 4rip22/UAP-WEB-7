@@ -1,5 +1,9 @@
 <?php 
    require_once(__DIR__ . '/../../header.php');
+<<<<<<< HEAD
+=======
+   require_once('../../header.php');
+>>>>>>> 93cda03074f025a6d169a947c0509fe4bbc48b3c
    $data_cs = query('SELECT * FROM tb_cuci_satuan');
 ?>
 

@@ -12,10 +12,14 @@
             <img src="<?=url('Assets/image/berhasil.png')?>" height="68" alt="alert sukses">
 					<p>Paket Berhasil Di Tambahkan</p>
 <<<<<<< HEAD
+					<button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
+=======
+<<<<<<< HEAD
 					<button href="paket" onclick="window.location='http://localhost/rumah_laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
 =======
 					<button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
 >>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
+>>>>>>> 501bbf226975e4f1649318d299be7c325c5e6327
 				</div>
          </div>
          
@@ -25,7 +29,7 @@
             <div class="box-red">
             <img src="<?=url('Assets/image/gagal.png')?>" height="68" alt="alert gagal">
                <p>Paket Gagal Di Tambahkan</p>
-               <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
+               <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_ck/pkt_ck.php'" class="btn-alert">Ok</button>
             </div>
          </div>
       <?php endif ?>      

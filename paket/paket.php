@@ -11,7 +11,7 @@
 						</div>
 						
 						<div class="card-col txt-right">
-							<a href="<?=url()?>" class="btn-xs bg-primary">Kembali</a>
+							<a href="<?=url('dashboard.php')?>" class="btn-xs bg-primary">Kembali</a>
 						</div>
                </div>
 

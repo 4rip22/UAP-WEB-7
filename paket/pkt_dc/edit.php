@@ -1,6 +1,10 @@
 <?php 
    require_once(__DIR__ . '/../../header.php');
+<<<<<<< HEAD
 
+=======
+   require_once('../../header.php');
+>>>>>>> 93cda03074f025a6d169a947c0509fe4bbc48b3c
    $id_dc = $_GET['id_dc'];
    $data_dc = query("SELECT * FROM tb_dry_clean WHERE id_dc = '$id_dc'")[0];
    // var_dump($data_dc);
@@ -13,7 +17,7 @@
 				<div class="box">
             <img src="<?=url('Assets/image/berhasil.png')?>" height="68" alt="alert sukses">
 					<p>Paket Berhasil Di Ubah</p>
-					<button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
+					<button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
 				</div>
          </div>
          
@@ -23,7 +27,7 @@
             <div class="box">
             <img src="<?=url('Assets/image//gagal.png')?>" height="68" alt="alert gagal">
                <p>Paket Gagal Di Ubah</p>
-               <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
+               <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
             </div>
          </div>
       <?php endif ?>      

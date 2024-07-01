@@ -9,7 +9,7 @@
       <div class="box">
          <img src="<?=url('Assets/image/Sukses.png')?>" height="68" alt="alert sukses">
             <p>Order Berhasil Di Tambahkan</p>
-            <button onclick="window.location='http://localhost/CleanCo_Laundry/dashboard.php'" class="btn-alert">Ok</button>
+            <button onclick="window.location='http://localhost/UAP-WEB-7/dashboard.php'" class="btn-alert">Ok</button>
          </div>
       </div>
    <?php else : ?>
@@ -17,7 +17,7 @@
          <div class="box">
             <img src="<?=url('Assets/image/Gagal.png')?>" height="68" alt="alert gagal">
             <p>Order Gagal Di Tambahkan</p>
-            <button onclick="window.location='http://localhost/CleanCo_Laundry/dashboard.php'" class="btn-alert">Ok</button>
+            <button onclick="window.location='http://localhost/UAP-WEB-7/dashboard.php'" class="btn-alert">Ok</button>
          </div>
       </div>
    <?php endif ?>

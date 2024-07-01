@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 <?php require_once(__DIR__ . '/../../fungsi.php');?>
 <!DOCTYPE html>
 <html lang="en">

@@ -17,7 +17,7 @@ require_once(__DIR__ . '/../../header.php');
             <img src="<?=url('Assets/image//berhasil.png')?>" height="68" alt="alert sukses">
 >>>>>>> 4ba610d0688bf022c00fe504db02a3f5b720377e
                <p>Paket Berhasil Di Tambahkan</p>
-               <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
+               <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
             </div>
          </div>
          
@@ -27,7 +27,7 @@ require_once(__DIR__ . '/../../header.php');
             <div class="box">
             <img src="<?=url('Assets/image/gagal.png')?>" height="68" alt="alert gagal">
                <p>Paket Gagal Di Tambahkan</p>
-               <button onclick="window.location='http://localhost/CleanCo_Laundry/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
+               <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_dc/pkt_dc.php'" class="btn-alert">Ok</button>
             </div>
          </div>
       <?php endif ?>      

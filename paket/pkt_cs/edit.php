@@ -3,6 +3,7 @@
    require_once(__DIR__ . '/../../header.php'); 
    $id_cs = $_GET['id_cs'];
    $data_cs = query("SELECT * FROM tb_cuci_satuan WHERE id_cs = '$id_cs'")[0];
+
    // var_dump($data_cs);   
 ?>
 
@@ -24,6 +25,35 @@
                <p>Paket Gagal Di Ubah</p>
                <button onclick="window.location='http://localhost/rumah_laundry/paket/pkt_cs/pkt_cs.php'" class="btn-alert">Ok</button>
             </div>
+   var_dump($data_cs);  
+?> 
+   
+<?php
+require_once ('../../header.php');
+$id_cs = $_GET['id_cs'];
+$data_cs = query("SELECT * FROM tb_cuci_satuan WHERE id_cs = '$id_cs'")[0];
+// var_dump($data_cs);   
+?>
+
+<?php if (isset($_POST['ubah'])): ?>
+   <?php if (edit_cs($_POST) > 0): ?>
+      <!-- Statement 1 -->
+      <div class="alert">
+         <div class="box">
+            <img src="<?= url('Assets/image/berhasil.png') ?>" height="68" alt="alert sukses">
+            <p>Paket Berhasil Di Ubah</p>
+            <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_cs/pkt_cs.php'"
+               class="btn-alert">Ok</button>
+         </div>
+      </div>
+   <?php else: ?>
+      <!-- Statement 2 -->
+      <div class="alert">
+         <div class="box">
+            <img src="<?= url('Assets/image/gagal.png') ?>" height="68" alt="alert gagal">
+            <p>Paket Gagal Di Ubah</p>
+            <button onclick="window.location='http://localhost/UAP-WEB-7/paket/pkt_cs/pkt_cs.php'"
+               class="btn-alert">Ok</button>
          </div>
       <?php endif ?>
    <?php endif ?>
