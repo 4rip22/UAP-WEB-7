@@ -243,6 +243,10 @@
                                           <td><?= $dc['berat_qty_dc'] . ' Kg' ?></td>
                                           <td>
                                              <a href="<?=url('detaiLOrder/order_dc.php')?><?= $dc['or_dc_number'] ?>" class="btn btn-detail">Detail</a>
+<<<<<<< HEAD
+=======
+
+>>>>>>> fc213c1742c70f76bc07dad94560be1ae15cc303
                                              <a href="<?=url('Pesanan/hapusDc.php?or_dc_number=')?><?=$dc['or_dc_number']?>" onclick="return confirm('Yakin akan menghapus?');" class="btn btn-hapus">Hapus</a>
                                           </td>
                                        </tr>
